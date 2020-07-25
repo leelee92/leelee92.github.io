@@ -1,0 +1,123 @@
+.container {
+  background-color: #f8f8f8;
+}
+
+.col-md-12.header {
+  background-color: indianred;
+  text-align: center;
+  color: whitesmoke;
+  border-radius: 0px 0px 45px 45px;
+  -moz-border-radius: 0px 0px 45px 45px;
+  -webkit-border-radius: 0px 0px 45px 45px;
+}
+
+.col-md-12.header hr,
+.col-md-12.footer hr {
+  border: none;
+  border-top: 2px solid whitesmoke;
+  color: indianred;
+  text-align: center;
+  font-size: 15px;
+  width: 23%;
+}
+
+.col-md-12.header hr:after,
+.col-md-12.footer hr:after {
+  background: whitesmoke;
+  content: "";
+  padding: 0 9px;
+  position: relative;
+  top: -11px;
+  border-radius: 200px 200px 200px 200px;
+  -moz-border-radius: 200px 200px 200px 200px;
+  -webkit-border-radius: 200px 200px 200px 200px;
+}
+
+.col-md-12 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.col-md-12.center p,
+.col-md-12 .center img {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.col-md-12 p {
+  margin-left: 10px;
+  font-size: 0.85em;
+}
+
+.col-md-12 img {
+  width: 140px;
+  height: 140px;
+}
+
+.col-md-12.center hr {
+  border-width: 1px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 18px;
+}
+
+.list-item h2 {
+  color: indianred;
+  font-size: 1.25em;
+}
+
+.list-item p {
+  margin: 0;
+  color: mediumseagreen;
+}
+
+.col-md-6 {
+  padding-bottom: 20px;
+}
+
+.col-md-6 h3 i {
+  margin-right: 10px;
+}
+
+.col-md-6 ul.list-item {
+  margin-bottom: 10px;
+}
+
+.col-md-6 ul.listebis {
+  list-style-type: none;
+}
+
+.col-md-6.droite {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.col-md-6.gauche {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer {
+  background-color: indianred;
+  color: whitesmoke;
+  border-radius: 45px 45px 0px 0px;
+  -moz-border-radius: 45px 45px 0px 0px;
+  -webkit-border-radius: 45px 45px 0px 0px;
+}
+
+.footer p {
+  text-align: center;
+  margin: auto;
+}
+
+.footer i {
+  margin-right: 10px;
+}
+
+.col-md-6.right ul {
+  list-style-type: circle;
+}
