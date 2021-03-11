@@ -125,7 +125,7 @@ function animate() {
     window.requestAnimationFrame(animate);
   } else {
     cnv.clearRect(0, 0, canvas.width, canvas.height);
-    window.location.assign("./cv.html");
+    window.location.assign("./cv.pdf");
   }
 }
 
