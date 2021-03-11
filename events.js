@@ -1,6 +1,5 @@
 export default function (barre, canvas) {
   const button1 = document.getElementById("button1");
-  const button2 = document.getElementById("button2");
 
   // si appui sur les flèches droite et gauche alors on déplace la barre de jeu
   window.addEventListener("keydown", function (event) {
@@ -26,13 +25,8 @@ export default function (barre, canvas) {
     }
   });
 
-  // si clic sur le bouton 1 alors on affiche la page du CV
+  // si clic sur le bouton 1 alors on permet le téléchargement du CV
   button1.addEventListener("click", function (event) {
-    window.location.assign("./cv.html");
-  });
-
-  // si clic sur le bouton 2 alors on permet le téléchargement du CV
-  button2.addEventListener("click", function (event) {
     window.location.assign("./cv.pdf");
   });
 }
